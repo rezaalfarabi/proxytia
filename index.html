@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+	<title>Proxitya</title>
+</head>
+<body>
+<h1>Proxytia</h1>
+<p>Silahkan masukkan nama anda dan pilih peran yang anda inginkan.</p>
+<form id="daftar">
+<p>Nama Anda : <input type="text" name="nama"></p>
+<p>Peran Anda : 
+<select name="peran" id="peran">
+<option value="pilih peran">- pilih peran -</option>
+<option value="ksatria">Ksatria</option>
+<option value="tabib">Tabib</option>
+<option value="penyihir">penyihir</option>
+</select>
+</p>
+<p>
+	<button type="button" onclick="hasil()">Mainkan</button>
+</p>
+</form>
+
+<p id="hasilNama"></p>
+<p id="hasilPeran"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
